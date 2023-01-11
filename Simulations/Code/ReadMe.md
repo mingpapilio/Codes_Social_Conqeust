@@ -56,7 +56,7 @@ Run the command below to start all simulations:
 ```
 python3 Code_S5_subprocess_social_conquest.py
 ```
-Option of simulation types and sociality types can be modified in the code file. Note that the __out_type__ between Code_S5 and Code_S3/Code_S4 need to be identical otherwise there will be no matching input file for executing simulatoins.
+Option of simulation types and sociality types can be modified in the code file. Note that the __out_type__ between Code_S5 and Code_S3/Code_S4 need to be identical otherwise there will be no matching input file for executing simulations.
 
 ### Part 4: plotting
 There are two plotting codes, one for social evolution simulations, __S6__, and the other for climate change simulations, __S7__. Each jupyter notebook contains code for concatenating results files and making figures. 
