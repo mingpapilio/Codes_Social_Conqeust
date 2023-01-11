@@ -1,5 +1,3 @@
-## Codes_Social_Conqeust
-
 This repository is for open access to source codes and data used in the paper __Environmental quality mediates the ecological dominance of cooperatively breeding birds__, which is currently under revision in _Ecology Letters_. 
 
 There are two main section in this repository: the __comparative analysis__ and the __simulations__. Comparative analysis folder contains the empirical dataset and the codes for PGLS models and path analysis. Simulation folder contains the simulation code and the generated data for each figure. Both folders have additional descriptions about how to run the codes inside them.
