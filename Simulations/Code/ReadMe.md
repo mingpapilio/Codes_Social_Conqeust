@@ -27,7 +27,20 @@ python3 Code_S4_input_generator_env_change.py
 ```
 
 #### File structure and naming
-
+The output of these python codes are structured as:
+```
+├── Data
+│   ├── input_file_list_{scenario}_{out_type}_{sociality_type}.txt
+│   ├── output_file_list_{scenario}_{out_type}_{sociality_type}.txt
+│   ├── social_evolution
+│   │   ├── ca
+│   │   ├── rd
+│   │   ├── ns
+│   ├── env_change
+│   │   ├── ca
+│   │   ├── rd
+│   │   ├── ns
+```
 
 ### Part 3: executing simulations
 Run the command below to start all simulations:
