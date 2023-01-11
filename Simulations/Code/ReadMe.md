@@ -14,10 +14,10 @@ Both S1 and S2 file would only need to be compiled once, simulations are run by 
 
 In the case of GNU compiler, the commands are:
 
-```{
+```
 _g++ -std=c++11 Code_S1_CollectiveActionSimulation.cpp -O2 -o ca.out_
 _g++ -std=c++11 Code_S2_ResourceDefenseSimulation.cpp -O2 -o rd.out_
-}```
+```
 
 ### Generating inputs
 
