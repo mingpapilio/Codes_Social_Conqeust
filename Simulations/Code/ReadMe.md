@@ -2,15 +2,15 @@
 
 There are four types of codes in this folder:
 
-1. Codes for all biological processes (S1 and S2)
-2. Codes for generating simple inputs for simulation codes (S3 and S4)
-3. Codes for executing simulations (S5)
-4. Codes for plotting (S6 and S7)
+1. The biological processes (S1 and S2)
+2. Generating inputs for simulation codes (S3 and S4)
+3. Executing simulations (S5)
+4. Plotting (S6 and S7)
 
 ## File execusion
 
-### Compiling
-Both S1 and S2 file would only need to be compiled once, simulations are run by calling the compiled files and the input files. Compiled files are called __ca.out__ or __rd.out__, depends on the type of cooperation being modelled. 
+### Part 1: compiling
+Both S1 and S2 file would only need to be compiled once, simulations are done by calling the compiled files and the input files. Therefore, compiled files should be named as __ca.out__ and __rd.out__, standing for collective action and resource defense (i.e., the two types of cooperation in the paper). 
 
 In the case of GNU compiler, the commands are:
 
@@ -19,8 +19,21 @@ g++ -std=c++11 Code_S1_CollectiveActionSimulation.cpp -O2 -o ca.out
 g++ -std=c++11 Code_S2_ResourceDefenseSimulation.cpp -O2 -o rd.out
 ```
 
-### Generating inputs
+### Part 2: generating inputs
+Run the command below to produce the input files:
+```
+python3 Code_S3_input_generator_social_evolution.py
+python3 Code_S4_input_generator_env_change.py
+```
 
-### Execution
+#### File structure and naming
 
-### Plotting
+
+### Part 3: executing simulations
+Run the command below to start all simulations:
+```
+python3 Code_S5_subprocess_social_conquest.py
+```
+
+### Part 4: plotting
+
