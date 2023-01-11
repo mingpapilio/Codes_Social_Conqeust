@@ -41,7 +41,7 @@ The output of these python codes are structured as:
 │   │   ├── rd
 │   │   ├── ns
 ```
-where the two text files are list of input and output filenames. The subfolders contain inputs files for different types of simulation: __social_evolution__ is used for modelling various resource availability and variability; __env_change__ is used for modelling the cases of climate change. Within each subfolder, there are three sub-subfolders: ca, rd, and ns. They stand for collective action, resource defense, and non-social, respectively. The simulation inputs and outputs are located in these folders (at this step you would only have the input files because simulations havn't been executed). 
+where the two text files are lists of input and output filenames. The subfolders contain inputs files for different types of simulation: __social_evolution__ is used for modelling various resource availability and variability; __env_change__ is used for modelling the cases of climate change. Within each subfolder, there are three sub-subfolders: ca, rd, and ns. They stand for collective action, resource defense, and non-social, respectively. The simulation inputs and outputs are located in these folders (at this step you would only have the input files because simulations haven't been executed). 
 
 Regarding the brackets in the input/output_file_list, __scenario__ specifies the type of simulation: __ec__ for env_change, __se__ for social evolution. __out_type__ specifies the type of output: __pfs__ for population final state (i.e., the last time step), __ts__ for the full time series. __sociality_type__ specifies the type of sociality: __ca__ for collective action, __rd__ for resource defense, and __ns__ for non-social.
 
