@@ -1,6 +1,0 @@
-fname,coop_efficiency,cost_rate,res_mean,res_var_range,sociality,pop_size_mean,pop_size_sd,coop_num_mean,coop_num_sd,noncoop_num_mean,noncoop_num_sd,coop_prop_mean,coop_prop_sd,aver_coop_deg_mean,aver_coop_deg_sd
-nso_pfs_0704m0p0.csv,0,0,7,8,Nonsocial,682.36,226.23437029556388,0.0,0.0,682.36,226.23437029556388,0.0,0.0,0.0,0.0
-nso_pfs_070400p1.csv,0,0,7,9.4,Nonsocial,727.63,289.20178041979585,0.0,0.0,727.63,289.20178041979585,0.0,0.0,0.0,0.0
-nso_pfs_070400p2.csv,0,0,7,10.8,Nonsocial,609.39,311.3501356506803,0.0,0.0,609.39,311.3501356506803,0.0,0.0,0.0,0.0
-nso_pfs_070400p3.csv,0,0,7,12.2,Nonsocial,552.52,358.0000981885764,0.0,0.0,552.52,358.0000981885764,0.0,0.0,0.0,0.0
-nso_pfs_070400p4.csv,0,0,7,13.6,Nonsocial,461.57,405.18830277670986,0.0,0.0,461.57,405.18830277670986,0.0,0.0,0.0,0.0
