@@ -5,7 +5,7 @@ There are four types of codes in this folder:
 1. The biological processes (S1 and S2)
 2. Generating inputs for simulation codes (S3 and S4)
 3. Executing simulations (S5)
-4. Plotting (S6 and S7)
+4. Processing simulated data and plotting (S6 and S7)
 
 ## File execusion
 
@@ -29,7 +29,7 @@ python3 Code_S4_input_generator_env_change.py
 ### Part 2.2: file structure and naming rules
 The output of these python codes are structured as:
 ```
-├── Data
+├── data
 │   ├── input_file_list_{scenario}_{out_type}_{sociality_type}.txt
 │   ├── output_file_list_{scenario}_{out_type}_{sociality_type}.txt
 │   ├── social_evolution
@@ -58,5 +58,5 @@ python3 Code_S5_subprocess_social_conquest.py
 ```
 Option of simulation types and sociality types can be modified in the code file. Note that the __out_type__ between Code_S5 and Code_S3/Code_S4 need to be identical otherwise there will be no matching input file for executing simulations.
 
-### Part 4: plotting
+### Part 4: processing simulated data and plotting
 There are two plotting codes, one for social evolution simulations, __S6__, and the other for climate change simulations, __S7__. Each jupyter notebook contains code for concatenating results files and making figures. 
