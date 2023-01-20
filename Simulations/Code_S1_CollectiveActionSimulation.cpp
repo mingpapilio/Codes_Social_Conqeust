@@ -1,3 +1,11 @@
+/*
+* @file Code_S1_CollectiveActionSimulation.cpp
+*
+* @organization Academia Sinica
+* @author Ying-Yu Chen
+* @contact yingyuchentw003@gmail.com
+*/
+
 #include <iostream>
 #include <math.h>
 #include <vector>
