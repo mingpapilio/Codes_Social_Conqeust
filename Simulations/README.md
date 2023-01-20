@@ -60,3 +60,7 @@ Option of simulation types and sociality types can be modified in the code file.
 
 ### Part 4: processing simulated data and plotting
 There are two plotting codes, one for social evolution simulations, __S6__, and the other for climate change simulations, __S7__. Each jupyter notebook contains code for concatenating results files and making figures. 
+
+## Data for verification
+
+We provide data arranged according to figures for verification. The data can be used to check if the simulation outputs are correct (e.g. have similar distributions) and makes debugging easier.
