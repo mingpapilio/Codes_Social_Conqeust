@@ -1,11 +1,13 @@
 ## File discription
 
-There are four types of codes in this folder:
+There are four types of codes files in this folder. They are created for the workflow to prepare, execute, and visualise the simulations:
 
 1. The biological processes (S1 and S2)
 2. Generating inputs for simulation codes (S3 and S4)
 3. Executing simulations (S5)
 4. Processing simulated data and plotting (S6 and S7)
+
+In addition to the codes and this readme file, there are two folders: __utils__ have some custom-written codes for data visualisation, and __data_for_verification__ arrage all data used in making main and supplementary figures. You may also use the plotting coded in S6/S7 to make figure but some adjustment might be needed.
 
 ## File execusion
 
@@ -59,8 +61,4 @@ python3 Code_S5_subprocess_social_conquest.py
 Option of simulation types and sociality types can be modified in the code file. Note that the __out_type__ between Code_S5 and Code_S3/Code_S4 need to be identical otherwise there will be no matching input file for executing simulations.
 
 ### Part 4: processing simulated data and plotting
-There are two plotting codes, one for social evolution simulations, __S6__, and the other for climate change simulations, __S7__. Each jupyter notebook contains code for concatenating results files and making figures. 
-
-## Data for verification
-
-We provide data arranged according to figures for verification. The data can be used to check if the simulation outputs are correct (e.g. have similar distributions) and makes debugging easier.
+There are two plotting codes, one for social evolution simulations, __S6__, and the other for climate change simulations, __S7__. Each jupyter notebook contains code for processing simulated raw data and making figures. 
